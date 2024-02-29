@@ -11,7 +11,7 @@ public class EquatableHelper : EqualsHelper {
 			ObjCSignature = $"isEqualTo{objc.PascalCase ()}:({objc}{nullable})other";
 			MonoSignature = $"Equals({NameGenerator.GetMonoName (pt)})";
 		}
-
+//yes
   public static WarningLevel GetWarningLevel (int code)
 		{
 			WarningLevel level;
