@@ -25,6 +25,6 @@ public class EquatableHelper : EqualsHelper {
 
 			if (warning_levels.TryGetValue (code, out level))
 				return level;
-
+//nice
 			return WarningLevel.Warning; ;
 		}
